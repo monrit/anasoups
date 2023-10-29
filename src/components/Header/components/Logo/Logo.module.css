@@ -1,5 +1,5 @@
 .text {
-  @apply pt-[2px] pl-[30px] text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50;
+  @apply pt-[2px] pl-[30px] text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight;
 }
 
 .text-second {
