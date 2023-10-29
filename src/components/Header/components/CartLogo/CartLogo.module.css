@@ -1,0 +1,7 @@
+.container { 
+  @apply mr-[22px] mt-[16px];
+}
+
+.button {
+  @apply h-[46px] w-[46px];
+}

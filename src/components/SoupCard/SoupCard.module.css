@@ -1,0 +1,39 @@
+.container {
+  @apply bg-white w-[240px] h-[360px] shadow-xl rounded-lg flex flex-col gap-2 overflow-hidden;
+}
+
+.image {
+  @apply w-max h-auto min-h-[180px];
+}
+
+.recipe {
+  @apply absolute h-[180px] w-[240px] z-0 opacity-0 hover:opacity-100 focus:opacity-100 text-center text-slate-950 flex items-center bg-white bg-opacity-70 text-[17px] transition delay-100 px-2;
+}
+
+.name {
+  @apply text-center text-slate-500 text-xl font-bold px-[8px] mt-2 h-[60px];
+}
+
+.prev-price {
+  @apply h-[10px] text-center text-gray-500 mt-[-10px] mb-[6px] line-through decoration-red-500;
+}
+
+.price-container {
+  @apply flex items-center;
+}
+
+.price {
+  @apply text-center text-red-500 text-2xl font-semibold mx-[6px];
+}
+
+.grams {
+  @apply text-gray-400 text-xl ml-[2px];
+}
+
+.price-line {
+  @apply border-b-2 w-full;
+}
+
+.button {
+  @apply w-[200px] h-[40px] bg-pink-500 rounded-lg mx-5 text-xl text-white hover:bg-pink-400 hover:translate-y-[-2px] active:bg-pink-600 active:translate-y-1 transition duration-200;
+}

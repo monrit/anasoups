@@ -1,0 +1,7 @@
+.text {
+  @apply font-bold text-center;
+}
+
+.link {
+  @apply underline text-pink-500;
+}

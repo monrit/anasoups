@@ -1,0 +1,11 @@
+.footer {
+  @apply mt-auto bg-slate-600 h-[72px];
+}
+
+.rights {
+  @apply text-white text-center mt-3;
+}
+
+.copyright {
+  @apply text-white text-center;
+}

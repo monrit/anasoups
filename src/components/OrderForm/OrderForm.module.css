@@ -1,0 +1,23 @@
+.fields {
+  @apply flex flex-col mb-4 gap-4 mt-2;
+}
+
+.field {
+  @apply flex flex-col;
+}
+
+.buttons {
+  @apply flex justify-center gap-2;
+}
+
+.submit {
+  @apply bg-pink-500 w-[100px] h-[32px] text-base text-white rounded-md hover:bg-pink-400 hover:translate-y-[-2px] active:bg-pink-600 active:translate-y-[2px] transition disabled:opacity-30 disabled:bg-gray-400 disabled:translate-y-0 !important;
+}
+
+.cancel {
+  @apply border-2 border-cyan-400 w-[100px] h-[32px] text-base text-black rounded-md hover:bg-cyan-400 transition hover:translate-y-[-2px] active:translate-y-[2px] active:bg-cyan-600 active:text-white active:border-cyan-600 duration-200;
+}
+
+.error {
+  @apply text-red-600 my-1;
+}

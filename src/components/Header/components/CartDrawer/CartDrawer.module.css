@@ -1,0 +1,27 @@
+.container {
+  @apply w-[320px] h-full;
+}
+
+.text {
+  @apply text-center text-gray-500 my-60;
+}
+
+.price {
+  @apply text-center text-cyan-500 font-bold;
+}
+
+.button {
+  @apply w-[250px] h-[40px] bg-pink-500 rounded-lg mx-[35px] mb-4 mt-2 text-xl text-white hover:bg-pink-400 hover:translate-y-[-2px] active:bg-pink-600 active:translate-y-1 transition duration-200 disabled:bg-slate-300;
+}
+
+.weight {
+  @apply text-center text-gray-600 text-[16px] mt-2;
+}
+
+.clear {
+  @apply text-center text-sm text-gray-400;
+}
+
+.clear-btn {
+  @apply underline cursor-pointer hover:text-gray-500 active:text-gray-700;
+}

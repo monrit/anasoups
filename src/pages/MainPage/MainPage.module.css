@@ -1,0 +1,3 @@
+.container {
+  @apply w-full bg-white flex gap-8 flex-wrap justify-center my-4;
+}

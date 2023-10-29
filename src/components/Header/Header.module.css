@@ -1,0 +1,11 @@
+.header {
+  @apply w-full bg-white h-[74px] sticky top-0 z-10;
+}
+
+.container {
+  @apply flex justify-between;
+}
+
+.divider {
+  @apply pt-[6px] border-b-2 w-full;
+}
