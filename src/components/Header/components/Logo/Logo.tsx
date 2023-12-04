@@ -6,7 +6,7 @@ const Logo: FC = () => {
   return (
     <Link to="/">
       <h1 className={styles.text}>
-        Ana<span className={styles["text-second"]}>Soups</span>
+        Leo<span className={styles["text-second"]}>Soups</span>
       </h1>
       <h6 className={styles.subtext}>The best soups in Lviv</h6>
     </Link>
